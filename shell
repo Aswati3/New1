@@ -1,0 +1,9 @@
+
+for i in `seq 10`
+do
+for j in `seq 10`
+do
+m=` expr $i \* $j `
+echo " $i * $j=$m "
+done
+done
